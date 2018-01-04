@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps {
-                call mvn clean
+                mvn clean
                 
             }
             post {
